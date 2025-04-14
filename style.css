@@ -40,7 +40,7 @@ footer {
 
 /*** NAV ***/
 nav {
-    
+
 }
 .link {
     text-decoration:  none;
@@ -53,5 +53,16 @@ nav {
 /*** MEDIA QUERIES ***/
 
 /* Tablette max 900px */
+@media screen and (max-width: 900px){
+    .debug{
+        border: 3px solid yellow;
+    }
+}
 
 /* Mobile max 600px */
+@media screen and (max-width: 600px){
+    .debug{
+        border: 3px solid green;
+    }
+    
+}
