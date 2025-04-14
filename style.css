@@ -1,0 +1,57 @@
+/*** VARIABLE  ***/ 
+:root{
+    --primary: ;
+    --font-size-s: 1em;
+    --font-size-m: 1.5em;
+    --font-size-l: 2em;
+    --font-size-xl: 2.5em; 
+    --font-size-xxl: 2.8em;
+}
+
+
+/*** STYLE GENERAL  ***/ 
+*{
+    margin: 0;
+    font-size: 14px;
+}
+
+hr {
+    margin: 4em 0 2em 0;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    width: 100%;
+}
+
+
+
+footer {
+    width: 120%;
+    height: 100px;
+}
+
+/*** NAV ***/
+nav {
+    
+}
+.link {
+    text-decoration:  none;
+}
+
+.debug{
+    border: 3px solid red;
+}
+
+/*** MEDIA QUERIES ***/
+
+/* Tablette max 900px */
+
+/* Mobile max 600px */
